@@ -1,0 +1,21 @@
+{
+  "ticker": "SPY",
+  "interval": "1d",
+  "source_sha256": "ba44a64580427ad50c2ff1d96573971d043851e41f48903ecaa0a9db43b89988",
+  "calibrator": {
+    "raw_min": 0.3483599783241098,
+    "raw_max": 0.5656900895406469,
+    "center": -0.27984218387714166,
+    "base": 0.39955849889624667,
+    "a": 0.12633175713780842,
+    "b": -0.4073248056179642
+  },
+  "calibration_origins": 300,
+  "nonflat_calibration_origins": 300,
+  "calibration_first": "1994-01-24 00:00:00+00:00",
+  "calibration_last_exit": "1995-04-03 00:00:00+00:00",
+  "test_first_entry": "1995-04-04 00:00:00+00:00",
+  "maximum_confidence": 0.4161535104375289,
+  "can_qualify": false,
+  "future_candidate_bars": 7937
+}

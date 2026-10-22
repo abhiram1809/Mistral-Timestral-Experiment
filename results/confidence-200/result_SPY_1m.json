@@ -1,0 +1,72 @@
+{
+  "ticker": "SPY",
+  "market": "US",
+  "label": "SPY",
+  "currency": "USD",
+  "cost_bps": 5,
+  "interval": "1m",
+  "counting_mode": "opportunities",
+  "target": 200,
+  "opportunities": 200,
+  "executed": 0,
+  "skipped": 200,
+  "target_reached": true,
+  "first_entry": "2026-10-19 16:39:00+00:00",
+  "last_exit": "2026-10-19 19:59:00+00:00",
+  "calibration_first": "2026-10-16 18:08:00+00:00",
+  "calibration_last_exit": "2026-10-19 16:38:00+00:00",
+  "calibration_observations": 299,
+  "slope": 0.0,
+  "intercept": -5.703782474656203,
+  "calibration_logit_center": -4.29152583831529,
+  "calibration_raw_min": 0.01,
+  "calibration_raw_max": 0.23343281552184203,
+  "maximum_attainable_confidence": 0.003322259136212619,
+  "constant_profit_probability": 0.0033222591362126247,
+  "initial": 100000.0,
+  "ending": 100000.0,
+  "return": 0.0,
+  "max_drawdown": 0.0,
+  "gross_ending": 100000.0,
+  "baseline": {
+    "ending": 81527.21743198902,
+    "return": -0.18472782568010981,
+    "max_drawdown": -0.18472782568010981
+  },
+  "raw_policy": {
+    "ending": 100000.0,
+    "return": 0.0,
+    "max_drawdown": 0.0
+  },
+  "calibrated_1x": {
+    "ending": 100000.0,
+    "return": 0.0,
+    "max_drawdown": 0.0
+  },
+  "leverage_1x_trades": 0,
+  "leverage_2x_trades": 0,
+  "leverage_3x_trades": 0,
+  "mean_leverage": 0.0,
+  "net_win_rate": null,
+  "raw_scores": {
+    "brier": 0.0001067182580106083,
+    "log_loss": 0.010193764488122599
+  },
+  "calibrated_scores": {
+    "brier": 1.1037405768148217e-05,
+    "log_loss": 0.0033277900926746906
+  },
+  "constant_scores": {
+    "brier": 1.1037405768148256e-05,
+    "log_loss": 0.0033277900926746906
+  },
+  "source": {
+    "source": "data/100-trades/SPY_1m.csv",
+    "source_rows": 1950,
+    "usable_rows": 1950,
+    "removed_rows": 0,
+    "sha256": "1efce1e7fab06e35fc138239158cd18f3bf82f262e4375873af7fe98ae097191"
+  },
+  "flat_forecast_skips": 0,
+  "low_confidence_skips": 200
+}

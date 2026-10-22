@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "target_reached": false,
+  "executed": 1,
+  "shortfall": 464,
+  "checks": [
+    "all original source and calibration hashes unchanged",
+    "original gates and leverage decisions reproduced",
+    "unique completed executions, no repeated trades",
+    "strict calibration chronology",
+    "frozen confidence upper bounds",
+    "fees, funding and separate account equity",
+    "extended history adds no later completed bars",
+    "earlier calibration exploration stopped and excluded"
+  ]
+}

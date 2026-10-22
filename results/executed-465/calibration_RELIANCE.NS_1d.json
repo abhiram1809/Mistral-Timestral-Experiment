@@ -1,0 +1,21 @@
+{
+  "ticker": "RELIANCE.NS",
+  "interval": "1d",
+  "source_sha256": "8620fa61342b1e79a92d1955190180bccbe2cc83f1ac973a9c11a15f5ae1eb9c",
+  "calibrator": {
+    "raw_min": 0.38906094685846015,
+    "raw_max": 0.7005926703282801,
+    "center": -0.07490606279557423,
+    "base": 0.4116997792494475,
+    "a": 0.0,
+    "b": -0.35694300452203154
+  },
+  "calibration_origins": 300,
+  "nonflat_calibration_origins": 300,
+  "calibration_first": "1996-12-13 00:00:00+00:00",
+  "calibration_last_exit": "1998-02-06 00:00:00+00:00",
+  "test_first_entry": "1998-02-09 00:00:00+00:00",
+  "maximum_confidence": 0.41169977924944745,
+  "can_qualify": false,
+  "future_candidate_bars": 7176
+}

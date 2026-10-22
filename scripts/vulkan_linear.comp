@@ -1,0 +1,44 @@
+#version 450
+#extension GL_EXT_control_flow_attributes : require
+// FP32 matrix product Y[M,N] = X[M,K] * W[N,K]^T + bias[N].
+// Each 16x16 workgroup computes a 64x64 output tile, 4x4 outputs per thread.
+layout(local_size_x=16, local_size_y=16) in;
+layout(set=0,binding=0,std430) readonly buffer Input { float x[]; };
+layout(set=0,binding=1,std430) readonly buffer Weights { float w[]; };
+layout(set=0,binding=2,std430) writeonly buffer Output { float y[]; };
+layout(push_constant) uniform Dims { uint M; uint N; uint K; } d;
+shared float aa[64*16];
+shared float bb[16*64];
+void main() {
+    uint tx=gl_LocalInvocationID.x, ty=gl_LocalInvocationID.y;
+    uint tid=ty*16+tx;
+    uint baseM=gl_WorkGroupID.y*64, baseN=gl_WorkGroupID.x*64;
+    vec4 a0=vec4(0), a1=vec4(0), a2=vec4(0), a3=vec4(0);
+    for (uint baseK=0;baseK<d.K;baseK+=16) {
+        [[unroll]] for(uint z=tid;z<1024;z+=256) {
+            uint row=z/16, col=z%16;
+            aa[z]=(baseM+row<d.M && baseK+col<d.K)
+                ? x[(baseM+row)*d.K+baseK+col] : 0.0;
+            bb[col*64+row]=(baseN+row<d.N && baseK+col<d.K)
+                ? w[(baseN+row)*d.K+baseK+col] : 0.0;
+        }
+        barrier();
+        [[unroll]] for(uint k=0;k<16;k++) {
+            vec4 bv=vec4(bb[k*64+tx],bb[k*64+tx+16],bb[k*64+tx+32],bb[k*64+tx+48]);
+            a0=fma(vec4(aa[ty*16+k]),bv,a0);
+            a1=fma(vec4(aa[(ty+16)*16+k]),bv,a1);
+            a2=fma(vec4(aa[(ty+32)*16+k]),bv,a2);
+            a3=fma(vec4(aa[(ty+48)*16+k]),bv,a3);
+        }
+        barrier();
+    }
+    [[unroll]] for(uint i=0;i<4;i++) {
+        uint row=baseM+ty+i*16;
+        vec4 acc=i==0?a0:(i==1?a1:(i==2?a2:a3));
+        [[unroll]] for(uint j=0;j<4;j++) {
+            uint col=baseN+tx+j*16;
+            if(row<d.M && col<d.N)
+                y[row*d.N+col]=acc[j]+w[d.N*d.K+col];
+        }
+    }
+}

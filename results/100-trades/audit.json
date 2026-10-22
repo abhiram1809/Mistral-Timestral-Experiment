@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "cases": 9,
+  "trades_per_case": 100,
+  "total_trades": 900,
+  "checks": [
+    "model-only direction",
+    "entry before exit",
+    "100 distinct trades per case",
+    "two-fill trading costs",
+    "compounded equity",
+    "summary agrees with trade ledger"
+  ]
+}

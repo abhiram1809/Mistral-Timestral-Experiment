@@ -1,0 +1,72 @@
+{
+  "ticker": "RELIANCE.NS",
+  "market": "India",
+  "label": "Reliance",
+  "currency": "INR",
+  "cost_bps": 10,
+  "interval": "1d",
+  "counting_mode": "opportunities",
+  "target": 200,
+  "opportunities": 200,
+  "executed": 0,
+  "skipped": 200,
+  "target_reached": true,
+  "first_entry": "2025-12-26 00:00:00",
+  "last_exit": "2026-10-19 00:00:00",
+  "calibration_first": "2024-10-10 00:00:00",
+  "calibration_last_exit": "2025-12-24 00:00:00",
+  "calibration_observations": 300,
+  "slope": 0.948915935777894,
+  "intercept": -0.5291161440023475,
+  "calibration_logit_center": -0.24761603433765786,
+  "calibration_raw_min": 0.38075662072550753,
+  "calibration_raw_max": 0.506842198497193,
+  "maximum_attainable_confidence": 0.43335468441056185,
+  "constant_profit_probability": 0.3741721854304636,
+  "initial": 100000.0,
+  "ending": 100000.0,
+  "return": 0.0,
+  "max_drawdown": 0.0,
+  "gross_ending": 100000.0,
+  "baseline": {
+    "ending": 55044.10500748539,
+    "return": -0.4495589499251461,
+    "max_drawdown": -0.468301891979202
+  },
+  "raw_policy": {
+    "ending": 100000.0,
+    "return": 0.0,
+    "max_drawdown": 0.0
+  },
+  "calibrated_1x": {
+    "ending": 100000.0,
+    "return": 0.0,
+    "max_drawdown": 0.0
+  },
+  "leverage_1x_trades": 0,
+  "leverage_2x_trades": 0,
+  "leverage_3x_trades": 0,
+  "mean_leverage": 0.0,
+  "net_win_rate": null,
+  "raw_scores": {
+    "brier": 0.2426583162516135,
+    "log_loss": 0.6783999804888837
+  },
+  "calibrated_scores": {
+    "brier": 0.24151775552750954,
+    "log_loss": 0.6761240725499797
+  },
+  "constant_scores": {
+    "brier": 0.24192535415113364,
+    "log_loss": 0.6769954768358845
+  },
+  "source": {
+    "source": "data/RELIANCE.NS.csv",
+    "source_rows": 1927,
+    "usable_rows": 1927,
+    "removed_rows": 0,
+    "sha256": "275b40515fb7bd059faf63fe5ec652e39312b5c951ed8330f51f43225f6b9cac"
+  },
+  "flat_forecast_skips": 0,
+  "low_confidence_skips": 200
+}

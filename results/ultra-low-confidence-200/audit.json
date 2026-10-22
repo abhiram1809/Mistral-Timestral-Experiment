@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "source_hashes_unchanged": true,
+  "unique_opportunities": 1800,
+  "scenario_replay_rows": 7200,
+  "primary_executed": 1790,
+  "primary_skipped": 10,
+  "checks": [
+    "previous lowest-gate replay reproduced",
+    "frozen probabilities and source hashes preserved",
+    "200 chronological opportunities per case",
+    "each exposure passes its own gate",
+    "every non-flat signal executed under primary schedule",
+    "flat medians remain skipped",
+    "all cost and cash P&L identities reconcile",
+    "relaxation never lowers exposure",
+    "all non-flat signals qualify at 3x under lowest schedule",
+    "no bankrupt account"
+  ]
+}

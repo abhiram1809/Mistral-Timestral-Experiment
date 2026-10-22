@@ -1,0 +1,6 @@
+Schedule,Executed,Skipped,1×,2×,3×,Profitable accounts / 9,Loss-making accounts / 9
+Original,1,1799,1,0,0,1,0
+Lower · primary,597,1203,384,18,195,0,3
+Looser,855,945,251,20,584,1,5
+Very low,1198,602,142,452,604,0,6
+Every non-flat signal · 1×,1790,10,1790,0,0,0,9

@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "opportunities": 1800,
+  "executed": 1,
+  "skipped": 1799,
+  "cases": 9,
+  "checks": [
+    "200 opportunities per case",
+    "strict calibration/test embargo",
+    "direction and leverage rules",
+    "cost-adjusted probabilities",
+    "entry/exit chronology",
+    "fees and funding identity",
+    "cash has zero costs",
+    "all equity paths and final balances"
+  ]
+}

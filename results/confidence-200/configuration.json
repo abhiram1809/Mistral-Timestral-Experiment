@@ -1,0 +1,48 @@
+{
+  "model": "mistralai/Timestral-209M",
+  "model_revision": "9874d252ab0aae16f7f7c999f98f98d6ad7d8365",
+  "context": 250,
+  "calibration_origins": 300,
+  "test_opportunities_per_case": 200,
+  "counting_mode": "opportunities",
+  "leverage_levels": [
+    1.0,
+    2.0,
+    3.0
+  ],
+  "profit_probability_thresholds": [
+    0.55,
+    0.6,
+    0.7
+  ],
+  "annual_financing_rate": 0.08,
+  "annual_short_borrow_rate": 0.03,
+  "assets": [
+    {
+      "ticker": "RELIANCE.NS",
+      "market": "India",
+      "label": "Reliance",
+      "currency": "INR",
+      "cost_bps": 10
+    },
+    {
+      "ticker": "SPY",
+      "market": "US",
+      "label": "SPY",
+      "currency": "USD",
+      "cost_bps": 5
+    },
+    {
+      "ticker": "EURUSD=X",
+      "market": "FX",
+      "label": "EUR/USD",
+      "currency": "USD",
+      "cost_bps": 2
+    }
+  ],
+  "intervals": [
+    "1m",
+    "1h",
+    "1d"
+  ]
+}

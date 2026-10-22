@@ -1,0 +1,227 @@
+[
+  {
+    "ticker": "RELIANCE.NS",
+    "interval": "1m",
+    "window": {
+      "start": 1790017097,
+      "end": 1790535497,
+      "period": null
+    },
+    "rows": 1500,
+    "status": "ok"
+  },
+  {
+    "ticker": "RELIANCE.NS",
+    "interval": "1m",
+    "window": {
+      "start": 1790535497,
+      "end": 1791053897,
+      "period": null
+    },
+    "rows": 1500,
+    "status": "ok"
+  },
+  {
+    "ticker": "RELIANCE.NS",
+    "interval": "1m",
+    "window": {
+      "start": 1791053897,
+      "end": 1791572297,
+      "period": null
+    },
+    "rows": 1875,
+    "status": "ok"
+  },
+  {
+    "ticker": "RELIANCE.NS",
+    "interval": "1m",
+    "window": {
+      "start": 1791572297,
+      "end": 1792090697,
+      "period": null
+    },
+    "rows": 1500,
+    "status": "ok"
+  },
+  {
+    "ticker": "RELIANCE.NS",
+    "interval": "1m",
+    "window": {
+      "start": 1792090697,
+      "end": 1792522697,
+      "period": null
+    },
+    "rows": 750,
+    "status": "ok"
+  },
+  {
+    "ticker": "RELIANCE.NS",
+    "interval": "1h",
+    "window": {
+      "start": 1729537097,
+      "end": 1792522697,
+      "period": null
+    },
+    "rows": 3455,
+    "status": "ok"
+  },
+  {
+    "ticker": "RELIANCE.NS",
+    "interval": "1d",
+    "window": {
+      "period": "max"
+    },
+    "rows": 7737,
+    "status": "ok"
+  },
+  {
+    "ticker": "SPY",
+    "interval": "1m",
+    "window": {
+      "start": 1790017097,
+      "end": 1790535497,
+      "period": null
+    },
+    "rows": 1621,
+    "status": "ok"
+  },
+  {
+    "ticker": "SPY",
+    "interval": "1m",
+    "window": {
+      "start": 1790535497,
+      "end": 1791053897,
+      "period": null
+    },
+    "rows": 1950,
+    "status": "ok"
+  },
+  {
+    "ticker": "SPY",
+    "interval": "1m",
+    "window": {
+      "start": 1791053897,
+      "end": 1791572297,
+      "period": null
+    },
+    "rows": 1889,
+    "status": "ok"
+  },
+  {
+    "ticker": "SPY",
+    "interval": "1m",
+    "window": {
+      "start": 1791572297,
+      "end": 1792090697,
+      "period": null
+    },
+    "rows": 1560,
+    "status": "ok"
+  },
+  {
+    "ticker": "SPY",
+    "interval": "1m",
+    "window": {
+      "start": 1792090697,
+      "end": 1792522697,
+      "period": null
+    },
+    "rows": 1170,
+    "status": "ok"
+  },
+  {
+    "ticker": "SPY",
+    "interval": "1h",
+    "window": {
+      "start": 1729537097,
+      "end": 1792522697,
+      "period": null
+    },
+    "rows": 3486,
+    "status": "ok"
+  },
+  {
+    "ticker": "SPY",
+    "interval": "1d",
+    "window": {
+      "period": "max"
+    },
+    "rows": 8489,
+    "status": "ok"
+  },
+  {
+    "ticker": "EURUSD=X",
+    "interval": "1m",
+    "window": {
+      "start": 1790017097,
+      "end": 1790535497,
+      "period": null
+    },
+    "rows": 5996,
+    "status": "ok"
+  },
+  {
+    "ticker": "EURUSD=X",
+    "interval": "1m",
+    "window": {
+      "start": 1790535497,
+      "end": 1791053897,
+      "period": null
+    },
+    "rows": 7195,
+    "status": "ok"
+  },
+  {
+    "ticker": "EURUSD=X",
+    "interval": "1m",
+    "window": {
+      "start": 1791053897,
+      "end": 1791572297,
+      "period": null
+    },
+    "rows": 6955,
+    "status": "ok"
+  },
+  {
+    "ticker": "EURUSD=X",
+    "interval": "1m",
+    "window": {
+      "start": 1791572297,
+      "end": 1792090697,
+      "period": null
+    },
+    "rows": 5756,
+    "status": "ok"
+  },
+  {
+    "ticker": "EURUSD=X",
+    "interval": "1m",
+    "window": {
+      "start": 1792090697,
+      "end": 1792522697,
+      "period": null
+    },
+    "rows": 4316,
+    "status": "ok"
+  },
+  {
+    "ticker": "EURUSD=X",
+    "interval": "1h",
+    "window": {
+      "start": 1729537097,
+      "end": 1792522697,
+      "period": null
+    },
+    "rows": 12505,
+    "status": "ok"
+  },
+  {
+    "ticker": "EURUSD=X",
+    "interval": "1d",
+    "window": {
+      "period": "max"
+    },
+    "rows": 5972,
+    "status": "ok"
+  }
+]

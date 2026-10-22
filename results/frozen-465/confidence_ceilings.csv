@@ -1,0 +1,10 @@
+ticker,interval,maximum_calibrated_probability,can_trade_1x,can_trade_2x,can_trade_3x
+RELIANCE.NS,1m,0.17833725373533002,False,False,False
+RELIANCE.NS,1h,0.26600441501103717,False,False,False
+RELIANCE.NS,1d,0.43335468441056185,False,False,False
+SPY,1m,0.003322259136212619,False,False,False
+SPY,1h,0.36561184394352925,False,False,False
+SPY,1d,0.5526324981946121,True,False,False
+EURUSD=X,1m,0.0033333333333333257,False,False,False
+EURUSD=X,1h,0.3746288557436575,False,False,False
+EURUSD=X,1d,0.40977680316614407,False,False,False

@@ -1,0 +1,7 @@
+{
+  "max_quantile_difference_pct_points": 0.8909173011779785,
+  "median_abs_quantile_difference_pct_points": 0.048704564571380615,
+  "median_abs_difference_divided_80_width": 0.026277679949998856,
+  "max_abs_difference_divided_80_width": 0.4368513822555542,
+  "median_sign_agreement": 0.8333333333333334
+}

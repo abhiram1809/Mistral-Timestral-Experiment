@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "return_origins": 18927,
+  "price_origins": 909,
+  "quantile_values": 8331120,
+  "test_predictions": 13500,
+  "daily_account_records": 121500,
+  "strategy_scenarios": 486,
+  "vulkan_validation_origins": 36,
+  "checks": [
+    "raw data hashes and cutoff",
+    "finite ordered forecast quantiles",
+    "calibration embargo and delayed entries",
+    "realized labels from source prices",
+    "position limits and costs",
+    "daily P&L identity and compounded equity",
+    "final capital agrees with metrics",
+    "Vulkan/CPU numerical agreement"
+  ]
+}

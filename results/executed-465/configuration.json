@@ -1,0 +1,20 @@
+{
+  "target": 465,
+  "target_scope": "combined across nine cases",
+  "counting_mode": "executed_trades",
+  "profit_probability_gates": [
+    0.55,
+    0.6,
+    0.7
+  ],
+  "context": 250,
+  "calibration_origins": 300,
+  "calibration_rule": "First 300 forecast origins after warmup, one-bar embargo, freeze for all later bars; no rolling refits or outcome-driven retries.",
+  "chronological_stop": "First 465 completed qualifying trades across the eligible cases, ordered by exit time and fixed case rank; stop early only if all available history is exhausted.",
+  "snapshot_cutoff": "2026-10-20 00:00:00+00:00",
+  "historical_calibration_parameters_differ_from_original": true,
+  "costs": "Unchanged per-fill fees 10/5/2 basis points, financing 8% above 1x, short borrow 3%.",
+  "model_revision": "9874d252ab0aae16f7f7c999f98f98d6ad7d8365",
+  "status": "cancelled",
+  "reason": "User explicitly requested keeping the original calibration frozen. Earlier-fit calibration exploration was stopped and is not used in the final result."
+}

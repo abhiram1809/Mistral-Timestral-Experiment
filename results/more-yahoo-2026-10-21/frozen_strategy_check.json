@@ -1,0 +1,99 @@
+{
+  "target_executed_trades": 465,
+  "executed": 1,
+  "new_executions": 0,
+  "target_reached": false,
+  "shortfall": 464,
+  "calibration_refit": false,
+  "gates": [
+    0.55,
+    0.6,
+    0.7
+  ],
+  "new_completed_intervals_checked": 1549,
+  "new_intervals_skipped_by_frozen_ceiling": 1549,
+  "new_gate_eligible_daily_bars": 0,
+  "cases": [
+    {
+      "ticker": "RELIANCE.NS",
+      "interval": "1m",
+      "new_completed_intervals": 0,
+      "frozen_maximum_probability": 0.17833725373533002,
+      "analytically_skipped": 0,
+      "new_model_forecasts_required": 0,
+      "calibration_refit": false
+    },
+    {
+      "ticker": "RELIANCE.NS",
+      "interval": "1h",
+      "new_completed_intervals": 0,
+      "frozen_maximum_probability": 0.26600441501103717,
+      "analytically_skipped": 0,
+      "new_model_forecasts_required": 0,
+      "calibration_refit": false
+    },
+    {
+      "ticker": "RELIANCE.NS",
+      "interval": "1d",
+      "new_completed_intervals": 0,
+      "frozen_maximum_probability": 0.43335468441056185,
+      "analytically_skipped": 0,
+      "new_model_forecasts_required": 0,
+      "calibration_refit": false
+    },
+    {
+      "ticker": "SPY",
+      "interval": "1m",
+      "new_completed_intervals": 328,
+      "frozen_maximum_probability": 0.003322259136212619,
+      "analytically_skipped": 328,
+      "new_model_forecasts_required": 0,
+      "calibration_refit": false
+    },
+    {
+      "ticker": "SPY",
+      "interval": "1h",
+      "new_completed_intervals": 5,
+      "frozen_maximum_probability": 0.36561184394352925,
+      "analytically_skipped": 5,
+      "new_model_forecasts_required": 0,
+      "calibration_refit": false
+    },
+    {
+      "ticker": "SPY",
+      "interval": "1d",
+      "new_completed_intervals": 0,
+      "frozen_maximum_probability": 0.5526324981946121,
+      "analytically_skipped": 0,
+      "new_model_forecasts_required": 0,
+      "calibration_refit": false
+    },
+    {
+      "ticker": "EURUSD=X",
+      "interval": "1m",
+      "new_completed_intervals": 1197,
+      "frozen_maximum_probability": 0.0033333333333333257,
+      "analytically_skipped": 1197,
+      "new_model_forecasts_required": 0,
+      "calibration_refit": false
+    },
+    {
+      "ticker": "EURUSD=X",
+      "interval": "1h",
+      "new_completed_intervals": 19,
+      "frozen_maximum_probability": 0.3746288557436575,
+      "analytically_skipped": 19,
+      "new_model_forecasts_required": 0,
+      "calibration_refit": false
+    },
+    {
+      "ticker": "EURUSD=X",
+      "interval": "1d",
+      "new_completed_intervals": 0,
+      "frozen_maximum_probability": 0.40977680316614407,
+      "analytically_skipped": 0,
+      "new_model_forecasts_required": 0,
+      "calibration_refit": false
+    }
+  ]
+}

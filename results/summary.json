@@ -1,0 +1,10 @@
+{
+  "forecast_mae_winners_of_nine": 4,
+  "mae_improvement_unadjusted_ci_above_zero": 0,
+  "confidence_profitable_accounts_of_nine": 3,
+  "confidence_beats_passive_of_nine": 3,
+  "mean_direction_accuracy": 0.5117777777777778,
+  "median_raw_coverage80": 0.794,
+  "median_calibrated_coverage80": 0.802,
+  "max_realized_leverage": 2.5672614036380783
+}

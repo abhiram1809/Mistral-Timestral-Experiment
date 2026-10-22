@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "unique_opportunities": 1800,
+  "cases": 9,
+  "scenario_replay_rows": 9000,
+  "executed_by_scenario": {
+    "original": 1,
+    "lower": 597,
+    "looser": 855,
+    "very_low": 1198,
+    "unfiltered_1x": 1790
+  },
+  "checks": [
+    "original policy and nine account equity paths reproduced",
+    "unfiltered 1x baseline reproduced",
+    "200 chronological opportunities per case",
+    "frozen probabilities and inputs unchanged",
+    "each level uses its own calibrated profit probability",
+    "no fees or funding on skips",
+    "return equals gross minus fees and funding",
+    "cash P&L reconciles to ending equity",
+    "relaxing gates never removes an execution or reduces requested exposure",
+    "source file hashes unchanged after replay",
+    "no bankrupt simulated account"
+  ]
+}

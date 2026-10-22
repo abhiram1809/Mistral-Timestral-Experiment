@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "complete_bars": 86193,
+  "additional_unique_timestamps": 34089,
+  "successful_requests": 21,
+  "requests": 21,
+  "original_sources_unchanged": true,
+  "calibration_refit": false,
+  "executed_trades": 1,
+  "target_reached": false,
+  "checks": [
+    "nine nonempty sorted unique datasets",
+    "source and exported file hashes",
+    "raw request windows and exchange metadata retained",
+    "incomplete candles excluded",
+    "additional and missing timestamp counts reconcile",
+    "original calibration hashes unchanged",
+    "new intervals rejected only when mathematically below the gate",
+    "no new gate-eligible data left unforecast"
+  ]
+}

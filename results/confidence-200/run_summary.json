@@ -1,0 +1,8 @@
+{
+  "opportunities": 1800,
+  "executed": 1,
+  "skipped": 1799,
+  "max_leverage": 1.0,
+  "brier_improves_raw_cases": 4,
+  "brier_beats_constant_cases": 6
+}

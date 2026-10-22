@@ -1,0 +1,9 @@
+{
+  "target": 465,
+  "executed": 561,
+  "target_reached": true,
+  "rounds": 28,
+  "signals_processed": 30873,
+  "history_exhausted": false,
+  "stopping_rule": "Full round of independent case streams; not a shared calendar portfolio"
+}

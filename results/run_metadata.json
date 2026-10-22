@@ -1,0 +1,115 @@
+{
+  "completed_utc": "2026-10-20T15:40:57.649281+00:00",
+  "reference_date": "2026-10-20",
+  "reference_timezone": "Asia/Calcutta",
+  "python": "3.14.7",
+  "architecture": "x86_64",
+  "model_id": "mistralai/Timestral-209M",
+  "parameters": 209312256,
+  "model_revision": "9874d252ab0aae16f7f7c999f98f98d6ad7d8365",
+  "upstream_commit": "a534bdbd244d64f3d9d743f46c7bf6fc330ed4ff",
+  "precision": "float32",
+  "symmetric_averaging": true,
+  "inference_backends": [
+    "PyTorch CPU",
+    "custom Vulkan FP32 Linear offload"
+  ],
+  "vulkan_device": "AMD Radeon RX 560 Series (RADV POLARIS11)",
+  "configuration": {
+    "model_id": "mistralai/Timestral-209M",
+    "as_of_exclusive": "2026-10-20",
+    "data_start": "2019-01-01",
+    "contexts": [
+      100,
+      250,
+      500
+    ],
+    "primary_context": 250,
+    "calibration_observations": 200,
+    "test_observations": 500,
+    "forecast_horizon": 20,
+    "execution_horizon": 2,
+    "initial_capital": 100000,
+    "maximum_leverage": 3,
+    "volatility_target": 0.1,
+    "annual_financing_rate": 0.08,
+    "annual_short_borrow_rate": 0.03,
+    "seed": 42,
+    "assets": [
+      {
+        "ticker": "RELIANCE.NS",
+        "market": "India",
+        "currency": "INR",
+        "one_way_cost_bps": 10
+      },
+      {
+        "ticker": "TCS.NS",
+        "market": "India",
+        "currency": "INR",
+        "one_way_cost_bps": 10
+      },
+      {
+        "ticker": "HDFCBANK.NS",
+        "market": "India",
+        "currency": "INR",
+        "one_way_cost_bps": 10
+      },
+      {
+        "ticker": "SPY",
+        "market": "US",
+        "currency": "USD",
+        "one_way_cost_bps": 5
+      },
+      {
+        "ticker": "AAPL",
+        "market": "US",
+        "currency": "USD",
+        "one_way_cost_bps": 5
+      },
+      {
+        "ticker": "MSFT",
+        "market": "US",
+        "currency": "USD",
+        "one_way_cost_bps": 5
+      },
+      {
+        "ticker": "EURUSD=X",
+        "market": "FX",
+        "currency": "USD",
+        "one_way_cost_bps": 2
+      },
+      {
+        "ticker": "GBPUSD=X",
+        "market": "FX",
+        "currency": "USD",
+        "one_way_cost_bps": 2
+      },
+      {
+        "ticker": "INR=X",
+        "market": "FX",
+        "currency": "INR",
+        "one_way_cost_bps": 3
+      }
+    ]
+  },
+  "audit": {
+    "status": "passed",
+    "return_origins": 18927,
+    "price_origins": 909,
+    "quantile_values": 8331120,
+    "test_predictions": 13500,
+    "daily_account_records": 121500,
+    "strategy_scenarios": 486,
+    "vulkan_validation_origins": 36,
+    "checks": [
+      "raw data hashes and cutoff",
+      "finite ordered forecast quantiles",
+      "calibration embargo and delayed entries",
+      "realized labels from source prices",
+      "position limits and costs",
+      "daily P&L identity and compounded equity",
+      "final capital agrees with metrics",
+      "Vulkan/CPU numerical agreement"
+    ]
+  }
+}
